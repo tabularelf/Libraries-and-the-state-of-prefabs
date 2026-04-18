@@ -7,7 +7,7 @@ Not every asset type has been tested by me, but for the sole purpose of this doc
 Note: This is purely my own thoughts, and has no direct opinion on prefabs as a whole. As of writing, the system is still unfinished, and therefore subject to change. 
 
 ## How exporting works
-When it comes to prefabs, a prefab is essentially a fancier yymps, with a yymanifest .xml and a prefab.json file. These are important as they describe what the prefab has, and more importantly with prefab.json, what is public and what the dependencies are.
+When it comes to prefabs, a prefab is essentially a fancier yymps, with a yymanifest .xml and a prefab.json file. These are important as they describe what the prefab has, and more importantly with prefab.json, what assets are public and what the dependencies are (assets, functions, datafiles).
 
 However, when it comes to functions, macros and enums, exposure is handled differently. Instead, they are handled via the keyword `#export`, and may be structured like so.
 
@@ -23,7 +23,14 @@ enum Type {
 }
 
 function do_thing(_a, _b) {
-	return _a + _b;
+	return _a + do_other_thing(_b, A_NUM);
+}
+
+// This is private, not known by the main project
+#macro A_NUM 2
+
+function do_other_thing(_a, _b) {
+	return _a * _b;
 }
 ```
 
@@ -53,3 +60,6 @@ Provided that the library in question actually uses them as a hard reference in 
 
 ## What about functions that rely on an existing datafile?
 There is actually an existing mechanism for datafiles to be included as dependencies, though it is not fully stable. This is still being worked on as per conversing with YYG, and ultimately will likely be fully fleshed out by the time the user prefab builder is available for everyone. 
+
+## My prefab references another prefab that is from another registry, is this okay?
+While this is mainly about scripts, macros and functions, it is important to know that a prefab will only soft reference another prefab that is included as a collection reference or included as a customizable item. This means that for your prefab to utilise the other prefab, the other prefab must be downloaded and installed. If the registry itself is setup for it, it is possible to upstream any unknown prefab requests to other registries. For example, the GameMaker Kitchen registry (WIP) is capable of pulling any prefabs from the GameMaker prefabs registry. Making it very plausible to include certain sounds or graphics provided for free by YoYoGames as library examples, without having to outsource third party assets.
