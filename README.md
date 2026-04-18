@@ -1,10 +1,10 @@
 # Libraries and the state of prefabs
 
-This document lists out the current state of the prefab system, and what difficulty curve for each and every library. As well as guiding others who may wish to eventually port over their libraries over to prefabs, and looking out for any very specific caveats.
+This document lists out the current state of the prefab system, and what difficulty curve for each and every library. As well as guiding others who may wish to eventually port over their libraries over to prefabs, and looking out for any very specific caveats. This serves as a mere guide for those who are looking to prepare for user prefabs, and know what to expect ahead of time.
 
 Not every asset type has been tested by me, but for the sole purpose of this document, this is mainly applying to scripts, functions, macros and enums.
 
-Note: This is purely my own thoughts, and has no direct opinion on prefabs as a whole. As of writing, the system is still unfinished, and therefore subject to change.
+Note: This is purely my own thoughts, and has no direct opinion on prefabs as a whole. As of writing, the system is still unfinished, and therefore subject to change. 
 
 ## How exporting works
 When it comes to prefabs, a prefab is essentially a fancier yymps, with a yymanifest .xml and a prefab.json file. These are important as they describe what the prefab has, and more importantly with prefab.json, what is public and what the dependencies are.
