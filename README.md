@@ -44,7 +44,7 @@ Pending: It is unknown if two prefabs with the same exported names will cause a 
 Outside of having to specify `#export` for anything you wish to be public, and using the namespace feature to modify a macro, there is in fact very few number of libraries that will have trouble being ported over. And in fact, most libraries will have the least friction. There are of course a few caveats.
 
 ### Known libraries that will have to be reworked
-- [Input (offalynne, Jujuadams)](https://codeberg.org/offalynne/Input) - The [current verb config](https://codeberg.org/offalynne/Input/src/branch/main/scripts/__InputConfigVerbs/__InputConfigVerbs.gml) is not going to be modifiable by the end user, therefore the mechanic itself requires a change in how verbs are declared by the library itself. All of the existing macro configs are however __safe__.
+- [Input (offalynne, Jujuadams, friends)](https://codeberg.org/offalynne/Input) - The [current verb config](https://codeberg.org/offalynne/Input/src/branch/main/scripts/__InputConfigVerbs/__InputConfigVerbs.gml) is not going to be modifiable by the end user, therefore the mechanic itself requires a change in how verbs are declared by the library itself. All of the existing macro configs are however __safe__.
   
   Suggestion: Add a macro config that points to an end user function, or add in a verb declare start/end helper.
 
