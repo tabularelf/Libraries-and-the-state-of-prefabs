@@ -1,6 +1,6 @@
 # Libraries and the state of prefabs
 
-This document lists out the current state of the prefab system, and what difficulty curve for each and every library. As well as guiding others who may wish to eventually port over their libraries over to prefabs, and looking out for any very specific caveats. This serves as a mere guide for those who are looking to prepare for user prefabs, and know what to expect ahead of time.
+This document lists out the current state of the prefab system, and what difficulty curve for each and every library. As well as guiding others who may wish to eventually port over their libraries over to prefabs, and looking out for any very specific caveats. 
 
 Not every asset type has been tested by me, but for the sole purpose of this document, this is mainly applying to scripts, functions, macros and enums.
 
