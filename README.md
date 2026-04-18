@@ -38,6 +38,7 @@ A version may be specified optionally, but just the name itself is sufficient en
 As one final additional note, anything exported *can* be overriden safely by the project, without affecting the prefab. This means it is possible to declare your own functions, macros or enums with the same name, that do something different in your project, while the prefabs exported functions, macros or enums continues to work as expected.
 
 Note: It is currently not possible to namespace scope reference a prefab exposed function, macro or enum, if they were overriden. 
+
 Pending: It is unknown if two prefabs with the same exported names will cause a conflict of some kind. 
 ## How difficulty would it be to convert existing libraries?
 Outside of having to specify `#export` for anything you wish to be public, and using the namespace feature to modify a macro, there is in fact very few number of libraries that will have trouble being ported over. And in fact, most libraries will have the least friction. There are of course a few caveats.
