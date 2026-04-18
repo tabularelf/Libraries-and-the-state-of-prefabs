@@ -66,5 +66,11 @@ There is actually an existing mechanism for datafiles to be included as dependen
 ## Do scripts in prefabs run all of their code at runtime, even if not directly referenced but added as a collection reference?
 Yes.
 
+## With above, are scripts ran in the same global space as the project?
+Yes.
+
+## Are functions that aren't exported, completely private?
+For clarity sake, `#export` only ensures that both the end user and the compiler is able to use the exported function, macro or enum. Which means by normal means, an end user *cannot* call a privated function. However, a user who is aware of the privated functions, is able to get around them by using `asset_get_ids()` or similar techniques on fetching GML functions.
+
 ## My prefab references another prefab that is from another registry, is this okay?
 While this is mainly about scripts, macros and functions, it is important to know that a prefab will only soft reference another prefab that is included as a collection reference or included as a customizable item. This means that for your prefab to utilise the other prefab, the other prefab must be downloaded and installed. If the registry itself is setup for it, it is possible to upstream any unknown prefab requests to other registries. For example, the GameMaker Kitchen registry (WIP) is capable of pulling any prefabs from the GameMaker prefabs registry. Making it very plausible to include certain sounds or graphics provided for free by YoYoGames as library examples, without having to outsource third party assets.
