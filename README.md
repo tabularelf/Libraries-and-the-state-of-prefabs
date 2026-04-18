@@ -62,7 +62,7 @@ Outside of having to specify `#export` for anything you wish to be public, and u
 # FAQ
 
 ## What about functions or macros that reference an asset from within the prefab?
-Provided that the library in question actually uses them as a hard reference in code (not `"obj_xy"`) or has an asset tag and `gml_pragma("MarkTagAsUsed", "<<tag name>>");` is supplied, they will be included with the project.
+Provided that the library in question actually uses them as a hard reference in code, such as `obj_xy`, and not as a string `"obj_xy"`. Or has an asset tag and `gml_pragma("MarkTagAsUsed", "<<tag name>>");` is supplied, they will be included with the project.
 
 ## What about functions that rely on an existing datafile?
 There is actually an existing mechanism for datafiles to be included as dependencies, though it is not fully stable. This is still being worked on as per conversing with YYG, and ultimately will likely be fully fleshed out by the time the user prefab builder is available for everyone. 
