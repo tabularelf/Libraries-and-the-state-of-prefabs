@@ -58,7 +58,7 @@ Outside of having to specify `#export` for anything you wish to be public, and u
   Suggestion: Add a macro config that points to an end user function, or add in a verb declare start/end helper.
 
 
-#FAQ
+# FAQ
 
 ## What about functions or macros that reference an asset from within the prefab?
 Provided that the library in question actually uses them as a hard reference in code (not `"obj_xy"`) or has an asset tag and `gml_pragma("MarkTagAsUsed", "<<tag name>>");` is supplied, they will be included with the project.
