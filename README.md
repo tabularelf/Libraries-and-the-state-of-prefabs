@@ -4,7 +4,7 @@ This document lists out the current state of the prefab system, and what difficu
 
 Not every asset type has been tested by me, but for the sole purpose of this document, this is mainly applying to scripts, functions, macros and enums.
 
-Note: This is purely my own thoughts, and has no direct opinion on prefabs as a whole. As of writing, the system is still unfinished, and therefore subject to change. 
+__Note__: This is purely my own thoughts, and has no direct opinion on prefabs as a whole. As of writing, the system is still unfinished, and therefore subject to change. 
 
 ## How exporting works
 When it comes to prefabs, a prefab is essentially a fancier yymps, with a yymanifest .xml and a prefab.json file. These are important as they describe what the prefab has, and more importantly with prefab.json, what assets are public and what the dependencies are (assets, functions, datafiles).
@@ -44,11 +44,11 @@ A version may be specified optionally, but just the name itself is sufficient en
 
 As one final additional note, anything exported *can* be overriden safely by the project, without affecting the prefab. This means it is possible to declare your own functions, macros or enums with the same name, that do something different in your project, while the prefabs exported functions, macros or enums continues to work as expected.
 
-Note: It is currently not possible to namespace scope reference a prefab exposed function, macro or enum, if they were overriden. 
+__Note__: It is currently not possible to namespace scope reference a prefab exposed function, macro or enum, if they were overriden. 
 
-Additional note: Enums exposed will include all of its children variables. Like in the example above, `Type.A` through `Type.C` will be included.
+__Additional note__: Enums exposed will include all of its children variables. Like in the example above, `Type.A` through `Type.C` will be included.
 
-Pending: It is unknown if two prefabs with the same exported names will cause a conflict of some kind. 
+__Pending__: It is unknown if two prefabs with the same exported names will cause a conflict of some kind. 
 ## How difficulty would it be to convert existing libraries?
 Outside of having to specify `#export` for anything you wish to be public, and using the namespace feature to modify a macro, there is in fact very few number of libraries that will have trouble being ported over. And in fact, most libraries will have the least friction. There are of course a few caveats.
 
