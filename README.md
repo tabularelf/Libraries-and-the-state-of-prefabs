@@ -46,7 +46,7 @@ As one final additional note, anything exported *can* be overriden safely by the
 
 __Note__: It is currently not possible to namespace scope reference a prefab exposed function, macro or enum, if they were overriden. 
 
-__Additional note__: Enums exposed will include all of its children variables. Like in the example above, `Type.A` through `Type.C` will be included.
+__Additional note__: Enums exposed will include all of its children names. Like in the example above, `Type.A` through `Type.C` will be included.
 
 __Pending__: It is unknown if two prefabs with the same exported names will cause a conflict of some kind. 
 ## How difficulty would it be to convert existing libraries?
