@@ -4,7 +4,7 @@ This document lists out the current state of the prefab system, and what difficu
 
 Not every asset type has been tested by me, but for the sole purpose of this document, this is mainly applying to scripts, functions, macros and enums.
 
-__Note__: This is purely my own thoughts, and has no direct opinion on prefabs as a whole. As of writing, the system is still unfinished, and therefore subject to change. 
+__Note__: This is purely my own thoughts, and has no direct opinion on prefabs as a whole. As of writing, the system is still unfinished, and therefore subject to change, and by any means should not be considered as an official documentation of the prefab system. 
 
 ## How exporting works
 When it comes to prefabs, a prefab is essentially a fancier yymps, with a yymanifest.xml and a prefab.json file. These are important as they describe what the prefab has, and more importantly with prefab.json, what assets are public and what the dependencies are (assets, functions, datafiles).
