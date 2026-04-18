@@ -46,6 +46,8 @@ As one final additional note, anything exported *can* be overriden safely by the
 
 Note: It is currently not possible to namespace scope reference a prefab exposed function, macro or enum, if they were overriden. 
 
+Additional note: Enums exposed will include all of its children variables. Like in the example above, `Type.A` through `Type.C` will be included.
+
 Pending: It is unknown if two prefabs with the same exported names will cause a conflict of some kind. 
 ## How difficulty would it be to convert existing libraries?
 Outside of having to specify `#export` for anything you wish to be public, and using the namespace feature to modify a macro, there is in fact very few number of libraries that will have trouble being ported over. And in fact, most libraries will have the least friction. There are of course a few caveats.
