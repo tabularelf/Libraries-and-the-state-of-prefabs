@@ -51,7 +51,7 @@ __Additional note__: Enums exposed will include all of its children names. Like 
 __Pending__: It is unknown if two prefabs with the same exported names will cause a conflict of some kind. (They shouldn't)
 
 ## How difficulty would it be to convert existing libraries?
-Outside of having to specify `#export` for anything you wish to be public, and using the namespace feature to modify a macro, there is in fact very few number of libraries that will have trouble being ported over. And in fact, most libraries will have the least friction. There are of course a few caveats.
+Outside of having to specify `#export` for anything you wish to be public, and using the namespace feature to modify a macro, there is in fact very few number of libraries that will have trouble being ported over. There are of course a few caveats.
 
 ### Known libraries that will have to be reworked
 - [Input (offalynne, Jujuadams, friends)](https://codeberg.org/offalynne/Input) - The [current verb config](https://codeberg.org/offalynne/Input/src/branch/main/scripts/__InputConfigVerbs/__InputConfigVerbs.gml) is not going to be modifiable by the end user, therefore the mechanic itself requires a change in how verbs are declared by the library. All of the existing macro configs are however __safe__.
