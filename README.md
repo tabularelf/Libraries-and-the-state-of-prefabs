@@ -9,7 +9,7 @@ __Note__: This is purely my own thoughts, and has no direct opinion on prefabs a
 ## How exporting works
 When it comes to prefabs, a prefab is essentially a fancier yymps, with a yymanifest.xml and a prefab.json file. These are important as they describe what the prefab has, and more importantly with prefab.json, what assets are public and what the dependencies are (assets, datafiles).
 
-However, when it comes to functions, macros and enums, exposure is handled differently. Instead, they are handled via the keyword `#export`, and are only exposed when prefabs are included as a collection reference. And may be structured like so.
+However, when it comes to functions, macros and enums, exposure is handled differently. Instead, they are handled via the keyword `#export`, and are only exposed when prefabs are included as a collection reference, or directly referenced within the asset. And may be structured like so.
 
 ```gml
 #export ENABLE_FEATURE, Type, do_thing
