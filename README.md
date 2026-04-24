@@ -57,7 +57,7 @@ Outside of having to specify `#export` for anything you wish to be public, and u
 - [Input (offalynne, Jujuadams, friends)](https://codeberg.org/offalynne/Input) - The [current verb config](https://codeberg.org/offalynne/Input/src/branch/main/scripts/__InputConfigVerbs/__InputConfigVerbs.gml) is not going to be modifiable by the end user, therefore the mechanic itself requires a change in how verbs are declared by the library. All of the existing macro configs are however __safe__.
   
   Suggestion: Add a macro config that points to an end user function, or add in a verb declare start/end helper.
-  With the macro config, one may also be able to provide a template script asset.
+  <br>With the macro config, one may also be able to provide a template script asset.
 
 
 # FAQ
