@@ -1,4 +1,4 @@
-# Libraries and the state of prefabs
+# Exporting your functions, macros & enums.
 
 This document lists out the current state of the prefab system, and what difficulty curve for each and every library if it were to be ported over. This mainly serves as a guide to users who are making libraries.
 
