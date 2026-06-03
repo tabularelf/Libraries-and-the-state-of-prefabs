@@ -8,6 +8,10 @@ No other version will be supported.
 
 ![Top right IDE](/Graphics/version-ide.png)
 
+## Known issues
+
+CE2/CE1/LSP/Feather do not highlight or recognise any functions/macros/enums. This is known.
+
 ## For users
 
 I want to first stress that this is a **TEST** and not something officially stable as of yet. I would advice not relying on these prefabs in production builds, until I say it's safe.
