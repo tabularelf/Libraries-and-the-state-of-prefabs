@@ -1,3 +1,5 @@
+# Adding GM Kitchen Registry
+
 1. Please add `https://gmpm.gamemakerkitchen.com/` as a package source via the package manager. 
 
 Optionally with the name `GameMaker Kitchen` and Install Subdirectory as `GMK`.
