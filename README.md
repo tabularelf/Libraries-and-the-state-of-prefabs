@@ -31,6 +31,8 @@ Name: name_of_library
 
 Logo: logo_if_available
 
+Link to repository: link_here
+
 Instructions on making a prefab:
 ```
 
