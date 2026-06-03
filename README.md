@@ -2,6 +2,8 @@ This repository aims to be a set of instructions for developers or users, who ar
 
 ## For everyone
 
+I want to first stress that this is a **TEST** and not something officially stable as of yet. I would advice not relying on these prefabs in production builds, until I say it's safe.
+
 Please ensure that you are on at minimal LTS 2026 (`IDE v2026.0.0.16  Runtime v2026.0.0.23`). You can see this by looking at the top right.
 
 No other version will be supported.
@@ -13,8 +15,6 @@ No other version will be supported.
 - CE2/CE1/LSP/Feather do not highlight or recognise any functions/macros/enums.
 
 ## For users
-
-I want to first stress that this is a **TEST** and not something officially stable as of yet. I would advice not relying on these prefabs in production builds, until I say it's safe.
 
 If you find any specific bugs involving the prefab system or the package manager, please file a bug report via Help -> Report a GameMaker Bug.
 
