@@ -28,16 +28,4 @@ Firstly, please ensure that your library is on 2024.14.4 or higher. I am not sup
 
 Secondly, follow this guide [here](/exporting-your-functions-macros-enums.md). And finally, please ensure that you have some kind of documentation included in your project. (A note asset that links to your documents will suffice.)
 
-Make an issue in the repository with the following format:
-
-```
-Name: name_of_library
-
-Logo: logo_if_available
-
-Instructions on making a prefab:
-```
-
-If you have any specific instructions for your libraries that you want me to be aware of, please note them down. Otherwise I wll make an assumption based on your library.
-
-The default assumption would be anything that looks like it is apart of the public folder, will just be included.
+As of the latest 2026.100.0 betas, the prefab builder is now available to utilize. This section will be updated soon on more instructions.
