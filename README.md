@@ -6,8 +6,6 @@ Please ensure that you are on at minimal LTS 2026.1.X (aka betas or newer) (` ID
 
 No other version will be supported.
 
-![Top right IDE](/Graphics/version-ide.png)
-
 ## Known issues
 
 - CE2/CE1/LSP/Feather do not highlight or recognise any functions/macros/enums.
