@@ -31,7 +31,7 @@ Though I would personally recommend just installing node.js v24.20.0.
 
 > Only npm v11.X is needed for creating a user account. npm v12.X and above has `adduser` removed.
 
-Note: If you don't want to specify `--registry` every time, you may set the configured registry away from `https://registry.npmjs.org/` by using `npm config set registry https://gmpm.gamemakerkitchen.com/`. Or under specific scopes `npm config set @scope:registry https://gmpm.gamemakerkitchen.com/`.
+If you don't want to specify `--registry` every time, you may set the configured registry away from `https://registry.npmjs.org/` by using `npm config set registry https://gmpm.gamemakerkitchen.com/`. Or under specific scopes `npm config set @scope:registry https://gmpm.gamemakerkitchen.com/`.
 
 For making a new account:
 `npm adduser --registry https://gmpm.gamemakerkitchen.com/`
