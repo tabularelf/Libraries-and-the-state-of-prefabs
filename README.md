@@ -24,4 +24,21 @@ Firstly, please ensure that your library is on 2024.14.4 or higher. I am not sup
 
 Secondly, follow this guide [here](/exporting-your-functions-macros-enums.md). And finally, please ensure that you have some kind of documentation included in your project. (A note asset that links to your documents will suffice.)
 
-As of the latest 2026.100.0 betas, the prefab builder is now available to utilize. This section will be updated soon on more instructions.
+As of the latest 2026.100.0 betas, the prefab builder is now available to utilize. So you may build & submit your prefabs directly to the GM Kitchen registry.
+
+For actually submitting packages, currently the gmpm interface does not support creating a user account. So you will need to instead use `npm`. GameMaker does include node.js and npm by default, which on Windows it's under `%appdata%\GameMakerStudio2-LTS2026\USERNAME\node\node`. 
+Though I would personally recommend just installing node.js anyway.
+
+Note: If you don't want to specify `--registry` every time, you may set the configured registry away from `https://registry.npmjs.org/` by using `npm config set registry https://gmpm.gamemakerkitchen.com/`. Or under specific scopes `npm config set @scope:registry https://gmpm.gamemakerkitchen.com/`.
+
+For making a new account:
+`npm adduser --registry https://gmpm.gamemakerkitchen.com/`
+
+For verifying current account:
+`npm whoami --registry https://gmpm.gamemakerkitchen.com/`
+
+For logging in, if not logged in:
+`npm login --registry https://gmpm.gamemakerkitchen.com/`
+
+For submitting (Need to be in the same folder as where your prefab is exported):
+`npm publish --registry https://gmpm.gamemakerkitchen.com/`
