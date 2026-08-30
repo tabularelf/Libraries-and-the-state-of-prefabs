@@ -57,7 +57,7 @@ For submitting (Need to be in the same folder as where your prefab is exported):
 # FAQ
 
 Q: Will there be a nicer account creation/login workflow down the line?<br>
-A: Eventually, yes. When I have time to poke around and get that all going. Ideally I'd like to mainly transition towards OpenID.
+A: Eventually, yes. When I have time to poke around and get that all going. Ideally I'd like to mainly transition towards an OpenID implementation.
 
 Q: If I have issues with the package manager/prefab builder, where do I report?<br>
 A: https://github.com/YoYoGames/GameMaker-Bugs/issues
