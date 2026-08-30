@@ -32,8 +32,8 @@ Though I would personally recommend just installing node.js v24.20.0.
 > Only npm v11.X is needed for creating a user account. npm v12.X and above has `adduser` removed. But other commands work fine.
 
 For prefab setup: 
-Please ensure that you fill both package name fields, the publisher name, collection name & package id.<br>
-See from the example below.
+Please ensure that you fill both package name fields (otherwise npm errors will occur), the publisher name, collection name & package id.<br>
+See from the example below.<br>
 <img width="307" height="397" alt="GameMaker-Beta_2026-08-30_15-52-17" src="https://github.com/user-attachments/assets/df1c163b-e0f6-4e56-acb1-14a3319903a7" />
 
 
