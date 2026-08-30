@@ -22,7 +22,7 @@ Please follow the guide [here](/adding-gmk-registry.md) in order to test & use t
 
 Firstly, please ensure that your library is on 2024.14.4 or higher. I am not supporting any libraries that are older than 2024.14.4 (with exceptions).
 
-Secondly, follow this guide [here](/exporting-your-functions-macros-enums.md) for exposing functions/macros/enums that you want to be **PUBLIC**. And finally, please ensure that you have some kind of documentation included in your project. (A note asset that links to your documents will suffice.)
+Secondly, follow this guide [here](/exporting-your-functions-macros-enums.md) for exposing functions/macros/enums that you want to be **PUBLIC**. And finally, please ensure that you have some kind of documentation included in your project. (A note asset that links to your documents will suffice.) Reason for documentation is to allow an end user to quickly glance through what's available. 
 
 As of the latest 2026.100.0 betas, the prefab builder is now available to utilize. So you may build & submit your prefabs directly to the GM Kitchen registry.
 
