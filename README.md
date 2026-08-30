@@ -36,7 +36,7 @@ Please ensure that you fill both package name fields (otherwise npm errors will 
 See from the example below.<br>
 <img width="307" height="397" alt="GameMaker-Beta_2026-08-30_15-52-17" src="https://github.com/user-attachments/assets/df1c163b-e0f6-4e56-acb1-14a3319903a7" />
 
-
+Please ensure that it is exported to a directory on its own, and open a terminal window from there.
 
 If you don't want to specify `--registry` every time, you may set the configured registry away from `https://registry.npmjs.org/` by using `npm config set registry https://gmpm.gamemakerkitchen.com/`. Or under specific scopes `npm config set @scope:registry https://gmpm.gamemakerkitchen.com/`.
 
