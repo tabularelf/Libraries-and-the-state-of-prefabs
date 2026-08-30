@@ -38,7 +38,7 @@ See from the example below.<br>
 
 Please ensure that it is exported to a directory on its own, and open a terminal window from there.
 
-If you don't want to specify `--registry` every time, you may set the configured registry away from `https://registry.npmjs.org/` by using `npm config set registry https://gmpm.gamemakerkitchen.com/`. Or under specific scopes `npm config set @scope:registry https://gmpm.gamemakerkitchen.com/`.
+If you don't want to specify `--registry` every time, you may set the configured registry away from `https://registry.npmjs.org/` by using `npm config set registry https://gmpm.gamemakerkitchen.com/`. Or under specific scopes `npm config set @scope:registry https://gmpm.gamemakerkitchen.com/`. (This may change when this FR is fulfilled. https://github.com/YoYoGames/GameMaker-Bugs/issues/15183)
 
 For making a new account:
 `npm adduser --registry https://gmpm.gamemakerkitchen.com/`
