@@ -22,7 +22,7 @@ Please follow the guide [here](/adding-gmk-registry.md) in order to test & use t
 
 Firstly, please ensure that your library is on 2024.14.4 or higher. I am not supporting any libraries that are older than 2024.14.4 (with exceptions).
 
-Secondly, follow this guide [here](/exporting-your-functions-macros-enums.md). And finally, please ensure that you have some kind of documentation included in your project. (A note asset that links to your documents will suffice.)
+Secondly, follow this guide [here](/exporting-your-functions-macros-enums.md) for exposing functions/macros/enums that you want to be **PUBLIC**. And finally, please ensure that you have some kind of documentation included in your project. (A note asset that links to your documents will suffice.)
 
 As of the latest 2026.100.0 betas, the prefab builder is now available to utilize. So you may build & submit your prefabs directly to the GM Kitchen registry.
 
@@ -37,6 +37,8 @@ See from the example below.<br>
 <img width="307" height="397" alt="GameMaker-Beta_2026-08-30_15-52-17" src="https://github.com/user-attachments/assets/df1c163b-e0f6-4e56-acb1-14a3319903a7" />
 
 Please ensure that it is exported to a directory on its own, and open a terminal window from there.
+
+> GM own prefabs are supported as well. You may use sdf filters, layer effects, other gm prefab assets, etc. The GM Kitchen registry will search for any included GM stock prefab if needed so.
 
 If you don't want to specify `--registry` every time, you may set the configured registry away from `https://registry.npmjs.org/` by using `npm config set registry https://gmpm.gamemakerkitchen.com/`. Or under specific scopes `npm config set @scope:registry https://gmpm.gamemakerkitchen.com/`. (This may change when this FR is fulfilled. https://github.com/YoYoGames/GameMaker-Bugs/issues/15183)
 
