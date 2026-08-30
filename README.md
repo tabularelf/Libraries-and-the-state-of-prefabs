@@ -53,3 +53,11 @@ For logging in, if not logged in:
 
 For submitting (Need to be in the same folder as where your prefab is exported):
 `npm publish --registry https://gmpm.gamemakerkitchen.com/`
+
+# FAQ
+
+Q: Will there be a nicer account creation/login workflow down the line?
+A: Eventually, yes. When I have time to poke around and get that all going. Ideally I'd like to mainly transition towards OpenID.
+
+Q: If I have issues with the package manager/prefab builder, where do I report?
+A: https://github.com/YoYoGames/GameMaker-Bugs/issues
