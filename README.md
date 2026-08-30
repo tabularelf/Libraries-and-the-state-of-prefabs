@@ -2,7 +2,7 @@ This repository aims to be a set of instructions for developers or users, who ar
 
 ## For everyone
 
-Please ensure that you are on at minimal LTS 2026.1.X (aka betas or newer) (` IDE v2026.100.0.1139 Beta Runtime v2026.100.0.1090`). You can see this by looking at the top right.
+Please ensure that you are on at minimal 2026.1.X (aka betas or newer) (` IDE v2026.100.0.1139 Beta Runtime v2026.100.0.1090`). You can see this by looking at the top right.
 
 No other version will be supported.
 
