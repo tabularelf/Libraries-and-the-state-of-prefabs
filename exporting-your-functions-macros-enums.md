@@ -1,3 +1,5 @@
+> This document was written at a time when the prefab builder wasn't exclusively available. Some details may need to be updated.
+
 # Exporting your functions, macros & enums.
 
 This document lists out the current state of the prefab system, and what difficulty curve for each and every library if it were to be ported over. This mainly serves as a guide to users who are making libraries.
