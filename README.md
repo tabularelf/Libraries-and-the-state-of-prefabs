@@ -62,3 +62,6 @@ A: Eventually, yes. When I have time to poke around and get that all going.
 
 Q: If I have issues with the package manager/prefab builder, where do I report?<br>
 A: https://github.com/YoYoGames/GameMaker-Bugs/issues
+
+Q: I have a specific issue involving the registry, where can I report it?<br>
+A: Under the #gamemaker_kitchen channel in the GameMaker Kitchen Discord! https://discord.gg/8krYCqr
