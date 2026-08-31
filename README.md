@@ -28,7 +28,7 @@ As of the latest 2026.100.0 betas, the prefab builder is now available to utiliz
 
 For actually submitting packages, currently the gmpm interface does not support creating a user account. So you will need to instead use npm version 11. GameMaker does include node.js v24.14.1 and npm v11.11.0 by default, which on Windows it's under `%appdata%\GameMakerStudio2-LTS2026\USERNAME\node\node\` under `npm.cmd`. You may open a CMD window in that folder path and run `npm.cmd` in place of `npm`. I am uncertain about other operating systems, but I will update these when I have a moment.
 
-Though I would personally recommend just installing node.js v24.20.0 if you are able to.
+Though I would personally recommend just installing node.js v24.20.0 if you are able to. You can find the downloads for Node.js here. https://nodejs.org/en/download
 
 > Only npm v11.X is needed for creating a user account. npm v12.X and above has `adduser` removed. But other commands work fine.
 
