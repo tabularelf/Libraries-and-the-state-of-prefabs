@@ -36,8 +36,7 @@ Though I would personally recommend just installing node.js v24.20.0 if you are 
 
 For prefab setup: 
 Please ensure that you fill both package name fields (the scope field **is** required), the publisher name, collection name & package id. See from the example below.<br>
-<img width="630" height="776" alt="image" src="https://github.com/user-attachments/assets/be867f84-2e36-48a4-b7e7-9e8eee85e3c2" />
-
+<img width="332" height="323" alt="GameMaker-LTS2026_2026-11-18_10-09-22" src="https://github.com/user-attachments/assets/09d3ae40-d486-449d-ab81-434ab1ef29a2" />
 
 Please ensure that it is exported to a directory on its own, and open a terminal window from there.
 
